@@ -70,3 +70,24 @@ header{
     
 }
 
+/*  Media queries for tablet*/
+
+@media screen and(max-width: 1024px) {
+    header{
+        height: 100vh;
+    }
+
+}
+
+/* Media queries for mobile phones */
+
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+    .scroll_down, .header_socials{
+        display: none;
+    }
+
+    
+}
