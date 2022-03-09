@@ -20,9 +20,9 @@
 --color-light: #FEF9EF;
 --color-bg1: #2978B5;
 --container-width-lg: 75%;
---container-width-sm: 86%;
---container-width-md: 90%;
---transition: all 400s ease;
+--container-width-md: 86%;
+--container-width-sm: 90%;
+--transition: all 400ms ease;
 
 
 }

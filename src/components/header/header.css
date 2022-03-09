@@ -31,10 +31,16 @@ header{
     position: absolute;
     left: 0;
     bottom: 3rem;
+    
 }
 
 .header_socials a{
     font-size: 1.4rem;
+    color: var(--color-light);
+}
+
+.header_socials a:hover{
+    color: var(--color-primary);
 }
 
 .header_socials::after{
