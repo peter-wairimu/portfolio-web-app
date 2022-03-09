@@ -33,6 +33,10 @@ header{
     bottom: 3rem;
 }
 
+.header_socials a{
+    font-size: 1.4rem;
+}
+
 .header_socials::after{
     content: '';
     width: 2px;
@@ -66,7 +70,7 @@ header{
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: .9rem;
+    font-size: 1.3rem;
     
 }
 
@@ -84,6 +88,12 @@ header{
 @media screen and (max-width: 600px){
     header{
         height: 100vh;
+    }
+    .image{
+        width: 15rem;
+        height: 20rem;
+        left: calc(50% - 7.5rem);
+        margin-top: 2rem;
     }
     .scroll_down, .header_socials{
         display: none;

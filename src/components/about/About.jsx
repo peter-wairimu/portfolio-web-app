@@ -35,7 +35,7 @@ const About = () => {
 
             <article className="about_card">
               <GiOpenBook  className='about_icon'/>
-              <h5></h5>
+              <h5>Projects</h5>
               <small>30+ projects Completed</small>
             </article>
           </div>
