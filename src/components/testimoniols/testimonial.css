@@ -1,5 +1,6 @@
 .testimoniols_container{
     width: 40%;
+   padding-bottom: 4rem;
 
 }
 
@@ -34,6 +35,7 @@
 #testimoniols{
     margin-top: -7rem;
 }
+
 
 /* media queries for tablets */
 

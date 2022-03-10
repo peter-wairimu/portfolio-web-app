@@ -5,6 +5,17 @@ import chege1 from '../../assets/person2.png'
 import chege2 from '../../assets/person3.png'
 import chege3 from '../../assets/person4.png'
 
+// import Swiper core and required modules
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 
 const data = [
   {
@@ -36,15 +47,28 @@ const data = [
     
 
 const Testimoniol = () => {
+  
   return (
     <section id='testimoniols'>
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
-      <div className="container testimoniols_container">
+      <Swiper className="container testimoniols_container"
+         // install Swiper modules
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={50}
+      slidesPerView={1}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+      
+      >
+        
       {
         data.map(({ id, image, name, description }) => {
           return (
-            <article key={id} className='testimonial'>
+            <SwiperSlide key={id} className='testimonial'>
               <div className="testimonial_image">
                 <img src={image} alt={name} />
               </div>
@@ -52,11 +76,11 @@ const Testimoniol = () => {
               <h3>{name}</h3>
                 <p>{description}</p>
               </div>
-            </article>
+            </SwiperSlide>
           )
         })
         }
-      </div>
+      </Swiper>
 
 
      </section>
