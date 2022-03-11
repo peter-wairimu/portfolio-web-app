@@ -30,14 +30,14 @@ const Contact = () => {
           </article>
 
           <article className='contact_option'>
-            <ImWhatsapp className="contact_icon" />
+            <SiMessenger className="contact_icon" />
             <h4>Messenger</h4>
-            <h5>Peter Wairimu </h5>
-            <a href="https://m.me/ernest.achieved" target="_blank">Send a Message</a>
+            <h5>Peter wairimu </h5>
+            <a href="">Send a Message</a>
           </article>
 
           <article className='contact_option'>
-            <SiMessenger className="contact_icon" />
+            <ImWhatsapp className="contact_icon" />
             <h4>Whatsup</h4>
             <h5>0707569387</h5>
             <a href="https://api.whatsapp.com/send?phone=+254707569387" target="_blank">Send a Message</a>

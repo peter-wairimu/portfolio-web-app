@@ -41,6 +41,9 @@ form{
     gap: 1rem;
 
 }
+.contact_option h5{
+    font-size: 1rem;
+}
 input,textarea{
     width: 100%;
     border: 1px solid var(--color-bg1);

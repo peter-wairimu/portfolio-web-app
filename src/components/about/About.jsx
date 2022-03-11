@@ -40,7 +40,8 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ullam et veniam, nam, nostrum tenetur minus distinctio iusto temporibus excepturi deleniti. Sed veniam velit obcaecati voluptatibus repellat maiores, quasi sequi nemo cumque numquam doloremque nihil quas libero perferendis! Illum, eum!
+            I have 1 year of experience as a fullstack developer with Moringa school. In my short time there, I've already contributed to over a dozen projects.
+            Ideally, I would like to continue to specialize in  software engineering. Aside from coding am a football fan, i like travelling and also reading books
           </p>
           <a href="#contact" className='btn'>Lets Talk</a>
         </div>

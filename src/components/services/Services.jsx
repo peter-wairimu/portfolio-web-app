@@ -50,25 +50,25 @@ const Services = () => {
             <li>
               <BsCheck className="service_icon" />
               <p>
-                I design and develop user-friendly and intuitive interfaces for web and mobile applications.
+                I create user friendly and intuitive interfaces for web and mobile applications.
               </p>
             </li>
             <li>
               <BsCheck className="service_icon" />
               <p>
-                I design and develop user-friendly and intuitive interfaces for web and mobile applications.
+                I create user friendly and intuitive interfaces for web and mobile applications.
               </p>
             </li>
             <li>
               <BsCheck className="service_icon" />
               <p>
-                I design and develop user-friendly and intuitive interfaces for web and mobile applications.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, corporis.
               </p>
             </li>
             <li>
               <BsCheck className="service_icon" />
               <p>
-                I design and develop user-friendly and intuitive interfaces for web and mobile applications.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, illum?
               </p>
             </li>
 

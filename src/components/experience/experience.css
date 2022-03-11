@@ -19,7 +19,7 @@
 
 .experience-container > div:hover{
     background-color: transparent;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-bg1);
     cursor: default;
 }
 
